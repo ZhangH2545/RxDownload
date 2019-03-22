@@ -19,8 +19,8 @@ private TextView btn;
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //地址 下载存放路径 文件名称
-                DownloadManagerFactory.getInstance(MainActivity.this).download("","","");
+                //地址 标志  下载存放路径 文件名称
+                DownloadManagerFactory.getInstance(MainActivity.this).download("","标志","","");
             }
         });
     }
